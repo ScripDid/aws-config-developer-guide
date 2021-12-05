@@ -1,6 +1,6 @@
 # approved\-amis\-by\-tag<a name="approved-amis-by-tag"></a>
 
-Checks if running instances are using specified AMIs\. Specify a list of approved AMI IDs\. Running instances with AMIs that are not on this list are NON\_COMPLIANT\.
+Checks if running instances are tagged with specified keys or key-value pairs\. Specify a list of approved keys or key-value pairs\. Running instances with AMIs that are not tagged as excepted are NON\_COMPLIANT\.
 
 **Identifier:** APPROVED\_AMIS\_BY\_TAG
 
